@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap');
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.adviceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10x;
+  background-color: #303a49;
+  width: 400px;
+  height: 300px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.advice {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #cbdfe7;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  height: 300px;
+}
+
+.adviceTitle {
+  color: #53fdaa;
+  letter-spacing: 0.2em;
+  font-size: 10px;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  width: 350px;
+  text-wrap: wrap;
+  text-align: center;
+  padding-bottom: 30px;
+  height: auto;
+}
+
+.divider {
+  display: flex;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.diceContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: -25px;
+  transform: translateX(-50%);
+  left: 50%;
+}
+
+.dice {
+  padding: 5px;
+}
+
+.diceButton {
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #53fdaa;
+  border-color: #53fdaa;
+}
